@@ -1,0 +1,148 @@
+
+/* ....................................................... */
+
+/* HEADER */
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background: #68b0ba;
+}
+
+.header .btn-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1280px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.nav {
+    width: 100%;
+}
+
+/* ....................................................... */
+
+/* BODY */
+
+.body {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-image: url(img/bkg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 15vw;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.btn-red{
+  background: #f97268;
+  box-shadow: 0px 6px 0px 0px rgba(199,81,71,1);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 23px 35px;
+}
+
+.btn-red:focus {
+  box-shadow: 0px 6px 0px 0px rgba(199,81,71,1);
+}
+/* ....................................................... */
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background: #68b0ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* ....................................................... */
+
+/* MODAL */
+
+.modal {
+  top: 10vw;
+}
+.modal-content {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-control {
+    border: none;
+}
+
+.modal-header {
+  background: #99d1d9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header h5 {
+  font-weight: bold;
+}
+
+.modal-body {
+  background: #f6f0e3;
+  padding: 30px 30px 3px;
+}
+
+.modal-body p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.forgot-password {
+  color: #88c68b;
+  padding: 0 20px 20px 45px;
+  background: #f4efe3;
+}
+
+.modal-footer {
+  background: #f6f0e3;
+  border: none;
+  border-radius: 0 0 5px 5px;
+  padding: 0 30px 30px;
+}
+
+.modal-footer button {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 18px;
+}
