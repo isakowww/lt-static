@@ -18,7 +18,7 @@
 	<title>Lucky Truck</title>
 </head>
 <body>
-	<!-- Button trigger modal -->
+	<!-- Button trigger box -->
 
 <div class="header">
 	<div class="header-content">
@@ -26,13 +26,13 @@
 		<ul class="nav justify-content-end">
 
 			<li class="nav-item register">
-				<button type="button" class="btn btn-link" data-toggle="modal" data-target="#register">
+				<button type="button" class="btn btn-link" data-toggle="box" data-target="#register">
 				  <i class="far fa-user"></i> Register
 				</button>
 		  </li>
 
 			<li class="nav-item">
-				<button type="button" class="btn btn-link" data-toggle="modal" data-target="#login">
+				<button type="button" class="btn btn-link" data-toggle="box" data-target="#login">
 				  <i class="fas fa-sign-in-alt"></i> Log in
 				</button>
 		  </li>
@@ -41,115 +41,109 @@
 </div>
 
 <div class="body">
-	<div class="content">
+	<!-- <div class="content">
 		<h1>Welcome to Lucky Truck</h1>
 
-		<button type="button" class="btn btn-red" data-toggle="modal" data-target="#register">
+		<button type="button" class="btn btn-red" data-toggle="box" data-target="#register">
 			Insure your truck now and drive
 		</button>
-	</div>
-	<!-- Modal -->
-	<div class="modal fade" id="business" tabindex="-1" role="dialog" aria-labelledby="businessLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
+	</div> -->
+	<!-- box -->
+	<!-- <div class="box fade" id="business" tabindex="-1" role="dialog" aria-labelledby="businessLabel">
+	  <div class="box-dialog" role="document">
+	    <div class="box-content">
 
-				<div class="modal-header">
-					<h5 class="modal-title" id="businessLabel">Business</h5>
+				<div class="box-header">
+					<h5 class="box-title" id="businessLabel">Business</h5>
 	      </div>
 
-				<div class="modal-body">
+				<div class="box-body">
 					<form>
 					  <div class="form-group">
-					    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Business name">
+					    <input type="text" class="form-control" placeholder="Business name">
 					  </div>
 
 					  <div class="form-group">
-					    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+					    <input type="text" class="form-control" placeholder="Email">
 					  </div>
 
 						<div class="form-group">
-							<input type="text" class="form-control" id="formGroupExampleInput#" placeholder="Phone">
+							<input type="text" class="form-control" placeholder="Phone">
 						</div>
 					</form>
 	      </div>
 
-	      <div class="modal-footer">
+	      <div class="box-footer">
 	        <button type="button" class="btn btn-red"> NEXT </button>
 	      </div>
 	    </div>
 	  </div>
-	</div>
+	</div> -->
 
-	<!-- Modal Register  -->
+	<!-- box Register  -->
 
-	<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
+	<div class="box" id="register" tabindex="-1" role="dialog" aria-labelledby="registerLabel" aria-hidden="true">
+	  <div class="box-dialog" role="document">
+	    <div class="box-content">
 
-				<div class="modal-header">
-					<h5 class="modal-title" id="registerLabel"> <i class="far fa-user"></i> Register</h5>
+				<div class="box-header">
+					<h5 class="box-title" id="registerLabel"> <i class="far fa-user"></i> Register</h5>
 	      </div>
 
-				<div class="modal-body">
+				<div class="box-body">
 					<form>
 					  <div class="form-group">
-					    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
-					  </div>
-
-					  <div class="form-group">
-					    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+					    <input type="text" class="form-control" placeholder="Business Name">
 					  </div>
 
 						<div class="form-group">
-							<input type="text" class="form-control" id="formGroupExampleInput#" placeholder="Phone">
+							<input type="phone" class="form-control" placeholder="Phone Number">
 						</div>
 
 						<div class="form-group">
-							<input type="text" class="form-control" id="formGroupExampleInput#" placeholder="Email">
+							<input type="email" class="form-control" placeholder="E-mail">
 						</div>
 
 						<div class="form-group">
-							<input type="text" class="form-control" id="formGroupExampleInput#" placeholder="Business Name">
+							<input type="password" class="form-control" placeholder="Password">
 						</div>
 					</form>
 
 					<p>By clicking Join Now, you agree to the Lucky Truck User Agreement, Privacy Policy, and Cookie Policy.</p>
 	      </div>
 
-	      <div class="modal-footer">
+	      <div class="box-footer">
 	        <button type="button" class="btn btn-red"> JOIN NOW </button>
 	      </div>
 	    </div>
 	  </div>
 	</div>
 
- <!-- Modal Login -->
+ <!-- box Login -->
 
- <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true">
-	 <div class="modal-dialog" role="document">
-		 <div class="modal-content">
+ <div class="box" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+	 <div class="box-dialog" role="document">
+		 <div class="box-content">
 
-			 <div class="modal-header">
-				 <h5 class="modal-title" id="loginLabel"><i class="fas fa-sign-in-alt"></i> Login</h5>
+			 <div class="box-header">
+				 <h5 class="box-title" id="loginLabel"><i class="fas fa-sign-in-alt"></i> Login</h5>
 			 </div>
 
-			 <div class="modal-body">
+			 <div class="box-body">
 				 <form>
 					 <div class="form-group">
-						 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username">
+						 <input type="text" class="form-control" placeholder="Username">
 					 </div>
 
 					 <div class="form-group">
-						 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password">
+						 <input type="password" class="form-control" placeholder="Password">
 					 </div>
-
+					 <div class="form-group">
+						<a href="#" class="forgot-password">Forgot Password?</a>
+					</div>
 				 </form>
-
-
 			 </div>
-			 <a href="#" class="forgot-password">Forgot Password?</a>
-			 <div class="modal-footer">
-
+			 <div class="box-footer">
 				 <button type="button" class="btn btn-red"> LOGIN </button>
 			 </div>
 		 </div>
@@ -159,8 +153,20 @@
 </div>
 
 <div class="footer">
-	<p class="copyright"> &copy; 2018 - Lucky Tryck - All rights reserved<p>
+	<p class="copyright"> &copy; 2018 - LuckyTruck!, Inc. - All rights reserved<p>
 </div>
+
+<script>
+$(function () {
+	$('.btn-link').click(function(e) {
+		e.preventDefault();
+
+		var target = $(this).data('target');
+		$('.box').hide();
+		$(target).show();
+	})
+});
+</script>
 
 </body>
 </html>

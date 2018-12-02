@@ -97,12 +97,13 @@
 
 /* ....................................................... */
 
-/* MODAL */
+/* box */
 
-.modal {
-  top: 10vw;
+.box {
+  width: 400px;
+  max-width: 80%; 
 }
-.modal-content {
+.box-content {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
@@ -112,46 +113,53 @@
     border: none;
 }
 
-.modal-header {
+.box-header {
   background: #99d1d9;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
 }
 
-.modal-header h5 {
+.box-header h5 {
   font-weight: bold;
 }
 
-.modal-body {
+.box-body {
   background: #f6f0e3;
   padding: 30px 30px 3px;
 }
 
-.modal-body p {
+.box-body p {
   font-size: 13px;
   text-align: center;
 }
 
 .forgot-password {
   color: #88c68b;
-  padding: 0 20px 20px 45px;
-  background: #f4efe3;
 }
 
-.modal-footer {
+.box-footer {
   background: #f6f0e3;
   border: none;
   border-radius: 0 0 5px 5px;
   padding: 0 30px 30px;
 }
 
-.modal-footer button {
+.box-footer button {
   display: flex;
   width: 100%;
   justify-content: center;
   padding: 18px;
+  border-radius: 0.5em;
+}
+
+#login {
+  display: none;
 }
 
 @media only screen and (max-width: 640px) {
