@@ -43,18 +43,25 @@
   background-position: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content {
-  margin-top: 15vw;
   color: #fff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 .content h1 {
   margin-bottom: 2rem;
   font-weight: bold;
+  text-align: center;
+}
+
+.btn {
+  white-space: normal;
 }
 
 .btn-red{
@@ -145,4 +152,15 @@
   width: 100%;
   justify-content: center;
   padding: 18px;
+}
+
+@media only screen and (max-width: 640px) {
+  .btn {
+    font-size: 15px;
+    padding: 20px 15px;
+  }
+
+  .register {
+    display: none;
+  }
 }
